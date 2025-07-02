@@ -129,7 +129,7 @@ while True:
 3. Click the **Save + Run** button near the top
 
 ## Your Turn
-What do you want your lamp to look like. Given the three examples, can you write some code to get the LEDs to do what you want them to?
+What do you want your lamp to look like? Given the three examples, can you write some code to get the LEDs to do what you want them to?
 
 ## Make Your Lamp (paper version)
 This will be pretty lame, but is quick and easy.
@@ -138,7 +138,7 @@ This will be pretty lame, but is quick and easy.
 1. Roll the page into a cylinder, the long way, with the LED strip inside and at the bottom. Tape the edges in place at both ends to hold the cylinder in place
 1. Pinch the end without wires coming out flat, so that the LED strip stays at the bottom, and tape that whole edge flat
 1. Pinch and tape just the sides of the other end of the cylinder flat the same direction as the end you just did. The goal is to keep the LED strip on the bottom, but leave a smaller, center cylinder on this end
-1. Tape the Pi Pico to the under side so it is hidden and its weight helps keep the LEDs on the bottom
+1. Tape the Pi Pico to the underside so it is hidden and its weight helps keep the LEDs on the bottom
 1. Plug into a computer, charger or portable battery to turn on the power. Leave the USB micro cable plugged into the lamp and turn on/off by removing the USB A side (it's too much pressure to do it from the micro side)
 This is not great, but should give a little diffusion to the light produced by the LED strip
 
@@ -151,12 +151,12 @@ Not bad, better than the paper version.
 1. Make sure the LED strip is wrapped enough not to get in the way of the cover going on
 1. Make sure the USB micro cable is plugged in and that the Pico is laying reasonably flat
 1. Gently grab the cover just above the cutout for the USB cable and on the opposite side
-1. Line up the cover so it will go over the base with the cutout where the UBS cable is
+1. Line up the cover so it will go over the base with the cutout where the USB cable is
 1. If needed to clear the tabs, very gently squeeze the top to clear the tabs (which should be opposite your fingers if lined up correctly) and lower onto the base
 1. Move slightly if needed until you feel the bumps on the tabs align with the divots in the cover
 1. Plug into a computer, charger or portable battery to turn on the power. Leave the USB micro cable plugged into the lamp and turn on/off by removing the USB A side (it's too much pressure to do it from the micro side)
 
-No matter which enclosure your used, you can always plug back into a computer and update your lighting display from the CircuitPython web site
+No matter which enclosure your used, you can always plug back into a computer and update your lighting display from the CircuitPython website
 
 ## If You Need More
 I have only preloaded the libraries needed for the examples that we ran. If you need additional modules to do what you want, you can go to [https://circuitpython.org/libraries](https://circuitpython.org/libraries) to get them. You will probably need to search for what you need and then copy the matching **mpy** file into the *lib* directory in the CIRCUITPY drive  
@@ -164,5 +164,5 @@ If you want to see some other examples of things to do with your Pi Pico, try so
 * [The Drone Bot Workshop](https://dronebotworkshop.com/pi-pico-circuitpython/) Loading CircuitPython is at the top if you find you need to do that and there are some other things you can do besides just LEDs. LOOK OUT, this is an older guide and you will probably need to update an item or two
 * [The Raspberry Pi Pico pin layout](https://datasheets.raspberrypi.com/pico/Pico-2-Pinout.pdf) I pre-soldered the LED strip signal to pin 1 (yellow or green wire and GP0 in our example programs), the ground (black or white wire) to pin 18 and the power (red wire) to pin 40
 * [The basics from the Raspberry Pi Foundation](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico) Direct from the makers of the Pi
-* [Nice examples from Adafruit](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/overview) The best place to by and get advice/ideas for your maker items (our LED strips are generic NeoPixels)
-* Do a search and you will find may more examples
+* [Nice examples from Adafruit](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/overview) The best place to buy and get advice/ideas for your maker items (our LED strips are generic NeoPixels)
+* Do a search and you will find many more examples
